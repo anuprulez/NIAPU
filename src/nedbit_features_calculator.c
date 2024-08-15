@@ -656,7 +656,7 @@ int main (int argc, char *argv[]) {
 #else
   seed=(unsigned long long)time(NULL);
   startseed = seed;
-  __mingw_fprintf(stdout, "WINDOWS-SEME = %llu\n", startseed);
+  fprintf(stdout, "WINDOWS-SEME = %llu\n", startseed);
 #endif
 #endif
 
