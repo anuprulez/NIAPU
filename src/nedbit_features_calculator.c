@@ -643,7 +643,7 @@ int main (int argc, char *argv[]) {
   if (argc != nARG + 1) {
     fprintf(stderr, "[%s]: Uso: %s filelink filegene fileout\n",
 	    __FUNCTION__, argv[0]);
-    exit(1);
+    exit(0);
   }
 
   // Seed generatori random

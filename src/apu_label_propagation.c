@@ -165,7 +165,7 @@ int main (int argc, char *argv[]) {
   if (argc != nARG + 1) {
     fprintf(stderr, "Uso: %s fileIn flagHeader fileOut sQuantile rnQuantile\n",
 	    argv[0]);
-    exit(1);
+    exit(0);
   }
 
   /* open file for reading */
